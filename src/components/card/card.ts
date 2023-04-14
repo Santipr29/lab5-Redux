@@ -53,7 +53,7 @@ class MyCard extends HTMLElement {
                 this.shadowRoot?.appendChild(css);
 
                 this.shadowRoot.innerHTML += `
-                <section class="cardSection">
+                <section>
                     <h1 class="name">Name: ${this.name}</h1>
                     <p class="birthYear">Birth Year: ${this.birth_year}</p>
                     <p class="birthYear">Gender: ${this.gender}</p>
